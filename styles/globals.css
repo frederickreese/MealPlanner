@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+a {
+  @apply text-primary;
+}
+
+.card {
+  @apply bg-white shadow-sm border border-gray-100 rounded-xl;
+}
+
+.btn-primary {
+  @apply bg-primary text-white px-4 py-2 rounded-lg hover:bg-teal-700 transition;
+}
+
+.btn-ghost {
+  @apply px-3 py-2 rounded-lg border border-gray-200 hover:bg-gray-100 transition;
+}
